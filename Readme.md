@@ -10,8 +10,6 @@
 
 ## Features ##
 
-This Delphi library is much more than a simple header translation. It has the following features:
-
   * Drag and drop support.
   * AES 256 EAX encryption\decryption algorithm.
   * Secure delete source file.
