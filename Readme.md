@@ -29,7 +29,7 @@
 
 ## Download ##
 
-[Download latest version](https://github.com/LifeIsHex/FastCryptor/releases/tag/Release)
+[Download latest version](https://github.com/LifeIsHex/FastCryptor/releases/tag/release)
 
 ## Version History ##
 	[>] 2.1.1 Build 11 (2023-02-05)
