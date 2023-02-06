@@ -32,6 +32,9 @@
 [Download latest version](https://github.com/LifeIsHex/FastCryptor/releases/tag/Release)
 
 ## Version History ##
+	[>] 2.1.1 Build 11 (2023-02-05)
+	    [-] Fix crash.
+
 	[>] 2.1.1 Build 10 (2023-02-05)
 	    [+] Drag and drop support.
 	    [+] Added AES 256 EAX algorithm.
