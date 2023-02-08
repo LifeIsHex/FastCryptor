@@ -47,7 +47,7 @@
 	    [+] Updated GUI.
 	    [+] Added show\hide password button. (password dialog)
 	    [+] Added password input length limitation. (max 32 characters)
-		[+] Added a new button to abort the whole operation.
+	    [+] Added a new button to abort the whole operation.
 	    [-] Fixed TaskDialog hyperlink bug.
 	    [-] Fixed the minimize button bug.
 	    [-] Fixed the progress bar bug.
