@@ -83,7 +83,7 @@
     [-] Fixed the progress bar bug.
     [-] Fixed the cancel operation bug,
 	In case the password is wrong.
-	
+
 [>] 2.1.1 Build 11 (2023-02-05)
     [-] Fixed crash.
 
@@ -92,7 +92,6 @@
     [+] Added AES 256 EAX algorithm.
     [+] Added shredder source file.(1 pass)
     [+] Portable and light.
-
 
 ## Bug Reporting ##
 
