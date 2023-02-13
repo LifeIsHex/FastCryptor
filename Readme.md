@@ -68,7 +68,7 @@
     [+] Updated GUI.(added tooltips etc.)
     [+] Added taskbar progress.
     [+] Added version history to the program.
-
+    
 [>] 2.2.5 Build 18 (2023-02-08)
     [+] Now full Unicode support.
     [+] Code improvement.
@@ -83,10 +83,10 @@
     [-] Fixed the progress bar bug.
     [-] Fixed the cancel operation bug,
 	In case the password is wrong.
-
+	
 [>] 2.1.1 Build 11 (2023-02-05)
     [-] Fixed crash.
-
+    
 [>] 2.1.1 Build 10 (2023-02-05)
     [+] Drag and drop support.
     [+] Added AES 256 EAX algorithm.
