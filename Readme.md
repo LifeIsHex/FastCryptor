@@ -54,6 +54,7 @@
 [Download latest version](https://github.com/LifeIsHex/FastCryptor/releases/tag/release)
 
 ## Version History ##
+
 [>] 2.7.3 Build 30 (2023-02-12)
     [+] Code improvement and optimization.
     [+] Added explorer shell context menu,
