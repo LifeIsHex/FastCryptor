@@ -36,7 +36,7 @@
 
 ![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main%20Encryption.png?raw=true)
 
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main%20Decryption?raw=true)
+![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main%20Decryption.png?raw=true)
 
 ![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Loading%20Files.png?raw=true)
 
