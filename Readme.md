@@ -67,6 +67,21 @@
 
 ## Version History ##
 
+[#] 2.18.2 Build 73 (2023-02-23)
+    [+] Added: Update the program from the internet.
+    [+] Added: Update settings section:
+        [+] Added: Check new updates on the startup.
+    [+] Added: General settings section:
+        [+] Show select operation window on startup.
+    [+] Added: Folder settings section.
+    [>] Items Moved to Folder settings section:
+        [+] Moved: Auto-rename the encrypted\decrypted file name if it exists.
+        [+] Moved: Move the encrypted\decrypted files to a folder.
+    [>] Item Moved to Misc. settings section:
+        [+] Moved: Auto-rename the encrypted\decrypted file name if it exists.
+    [+] Improved: Core code improvement and optimization.
+    [+] Updated: GUI.
+
 [#] 2.16.6 Build 62 (2023-02-20)
 
     [+] Added: Feature to select files manually.
@@ -97,7 +112,7 @@
     [-] Fixed: Runtime error when a big file is securely deleted.
     [-] Fixed: Runtime error when a file with a read-only attribute is securely deleted.
     [-] Fixed: Program freezing on big file shred.
-    [-] Fixed: .lnk extention bug.
+    [-] Fixed: .lnk extension bug.
 
 [#] 2.7.3 Build 30 (2023-02-12)
 
@@ -111,7 +126,7 @@
     [+] Updated: GUI. (added tooltips etc.)
     [+] Updated: The source file shredder feature moved to the password window.
 
-[#] 2.2.5 Build 18 (2023-02-08) - Free Edition
+[#] 2.2.5 Build 18 (2023-02-08)
 
     [+] Added: Now full Unicode support.
     [+] Added: Show\Hide password button to the password window.
