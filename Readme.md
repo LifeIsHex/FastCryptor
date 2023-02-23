@@ -68,6 +68,7 @@
 ## Version History ##
 
 [#] 2.18.2 Build 73 (2023-02-23)
+
     [+] Added: Update the program from the internet.
     [+] Added: Update settings section:
         [+] Added: Check new updates on the startup.
