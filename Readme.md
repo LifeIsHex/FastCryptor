@@ -67,7 +67,23 @@
 
 ## Version History ##
 
+[#] 2.22.0 Build 78 (2023-02-24)
+
+    [>] General Settings:
+        [+] Added: Auto start encrypting\decrypting.
+        [+] Added: Close the program after encrypting\decrypting.
+    [>] Update Settings:
+        [+] Added: Auto install updates after download.
+    [+] Added: Feature to update program manually.
+    [+] Added: Feature to delete the empty directory after encryption\decryption.
+    [+] Added: Report bug link to the about window.
+    [+] Improved: Update the program from the internet now has more validation checks.
+    [+] Improved: Auto-rename the encrypted\decrypted file name if it exists.
+    [+] Updated: Now you can delete the source file without shredding it.
+    [-] Fixed: Failed encryption\decryption when destination directory doesn't exists.
+
 [#] 2.18.2 Build 73 (2023-02-23)
+
     [+] Added: Update the program from the internet.
     [+] Added: Update settings section:
         [+] Added: Check new updates on the startup.
@@ -75,7 +91,6 @@
         [+] Show select operation window on startup.
     [+] Added: Folder settings section.
     [>] Items Moved to Folder settings section:
-        [+] Moved: Auto-rename the encrypted\decrypted file name if it exists.
         [+] Moved: Move the encrypted\decrypted files to a folder.
     [>] Item Moved to Misc. settings section:
         [+] Moved: Auto-rename the encrypted\decrypted file name if it exists.
