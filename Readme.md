@@ -84,7 +84,7 @@
     [+] Updated: File Shredder progress can be seen in the window title bar.
     [-] Fixed: Selecting algorithm mode.
     [-] Fixed: Crash program on the password entry window.
-    [-] Fixed: Algorithm mode did not affect when restored to the default settings.
+    [-] Fixed: Algorithm mode was not affected when the default settings were restored.
 
 [#] 2.22.0 Build 78 (2023-02-24)
 
