@@ -22,8 +22,9 @@
   * Drag and drop support.
   * Explorer shell context menu.
   * Unicode support.
-  * AES 128-bit, 256-bit\ Towfish 128-bit, 256-bit encryption\decryption algorithm with EAX and HMAC mode.
+  * AES\Towfish\Serpent 128-bit, 256-bit encryption\decryption algorithm with EAX and HMAC mode.
   * Secure delete source file.
+  * Zlib compression support.
   * Portable and light.
 
 ## Requirements ##
@@ -67,11 +68,29 @@
 
 ## Version History ##
 
+[#] 2.24.10 Build 103 (2023-03-01)
+
+    [>] Compress Settings:
+        [+] Added: Compress while encrypting files. (zLib - make operation slower)
+    [>] Algorithm Settings:
+        [+] Added: Encryption algorithm with Serpent 128-bit and 256-bit.
+    [+] Improved: Code improvement and optimization.
+    [+] Improved: Restore settings to default.
+    [+] Improved: Gutmann file shredder on cancel operation.
+    [+] Improved: Now you can crypt files even if it's executed. (.exe, .dll, etc.)
+    [+] Updated: GUI. (main\load files\progress window)
+    [+] Updated: Encryption\Decryption progress can be seen in the window title bar.
+    [+] Updated: Compress\Decompress progress can be seen in the window title bar.
+    [+] Updated: File Shredder progress can be seen in the window title bar.
+    [-] Fixed: Selecting algorithm mode.
+    [-] Fixed: Crash program on the password entry window.
+    [-] Fixed: Algorithm mode did not affect when restored to the default settings.
+
 [#] 2.22.0 Build 78 (2023-02-24)
 
     [>] General Settings:
-        [+] Added: Auto start encrypting\decrypting.
-        [+] Added: Close the program after encrypting\decrypting.
+        [+] Added: Auto start encryption\decryption.
+        [+] Added: Close the program after encryption\decryption.
     [>] Update Settings:
         [+] Added: Auto install updates after download.
     [+] Added: Feature to update program manually.
@@ -80,7 +99,7 @@
     [+] Improved: Update the program from the internet now has more validation checks.
     [+] Improved: Auto-rename the encrypted\decrypted file name if it exists.
     [+] Updated: Now you can delete the source file without shredding it.
-    [-] Fixed: Failed encryption\decryption when destination directory doesn't exists.
+    [-] Fixed: Failed encryption\decryption when destination directory doesn't exist.
 
 [#] 2.18.2 Build 73 (2023-02-23)
 
@@ -107,7 +126,7 @@
         [>] General Settings:
             [+] Added: Keep the window always on top.
             [+] Added: Auto close loading files window after the finished.
-            [+] Added: Auto close encrypting\decrypting files window after the finished.
+            [+] Added: Auto close encryption\decryption files window after the finished.
             [+] Added: Auto-rename the encrypted\decrypted file name if it exists.
             [+] Added: Move the encrypted\decrypted files to a folder.
         [>] Context Menu Settings:
