@@ -1,17 +1,17 @@
 22410103;https://github.com/LifeIsHex/FastCryptor/raw/main/update/update.data;2.24.10 Build 103 (2023-03-01);
-[#] 2.24.10 Build 103 (2023-03-01)
-    [>] Compress Settings:
-        [+] Added: Compress while encrypting files. (zLib - make operation slower)
-    [>] Algorithm Settings:
-        [+] Added: Encryption algorithm with Serpent 128-bit and 256-bit.
-    [+] Improved: Code improvement and optimization.
-    [+] Improved: Restore settings to default.
-    [+] Improved: Gutmann file shredder on cancel operation.
-    [+] Improved: Now you can crypt files even if it's executed. (.exe, .dll, etc.)
-    [+] Updated: GUI. (main\load files\progress window)
-    [+] Updated: Encryption\Decryption progress can be seen in the window title bar.
-    [+] Updated: Compress\Decompress progress can be seen in the window title bar.
-    [+] Updated: File Shredder progress can be seen in the window title bar.
-    [-] Fixed: Selecting algorithm mode.
-    [-] Fixed: Crash program on the password entry window.
-    [-] Fixed: Algorithm mode was not affected when the default settings were restored.
+[#] 2.24.10 Build 103 (2023-03-01)\
+    [>] Compress Settings:\
+        [+] Added: Compress while encrypting files. (zLib - make operation slower)\
+    [>] Algorithm Settings:\
+        [+] Added: Encryption algorithm with Serpent 128-bit and 256-bit.\
+    [+] Improved: Code improvement and optimization.\
+    [+] Improved: Restore settings to default.\
+    [+] Improved: Gutmann file shredder on cancel operation.\
+    [+] Improved: Now you can crypt files even if it's executed. (.exe, .dll, etc.)\
+    [+] Updated: GUI. (main\load files\progress window)\
+    [+] Updated: Encryption\Decryption progress can be seen in the window title bar.\
+    [+] Updated: Compress\Decompress progress can be seen in the window title bar.\
+    [+] Updated: File Shredder progress can be seen in the window title bar.\
+    [-] Fixed: Selecting algorithm mode.\
+    [-] Fixed: Crash program on the password entry window.\
+    [-] Fixed: Algorithm mode was not affected when the default settings were restored.\
