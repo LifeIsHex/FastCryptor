@@ -68,6 +68,17 @@
 
 ## Version History ##
 
+[#] 2.30.05 Build 133 (2023-03-07)
+
+    [+] Added: Feature to remember the password for the next use.
+    [+] Added: Feature to generate random password.
+    [+] Added: What's new in the update package? (before upgrading to a new version)
+    [+] Added: Save\Load password. Now you can save\load your password. (backup)
+    [+] Improved: Code improvement and optimization.
+    [+] Updated: GUI. (password window)
+    [+] Updated: Downloading and upgrading the program.
+    [-] Fixed: Small bugs fixed.
+
 [#] 2.24.10 Build 103 (2023-03-01)
 
     [>] Compress Settings:
@@ -84,7 +95,7 @@
     [+] Updated: File Shredder progress can be seen in the window title bar.
     [-] Fixed: Selecting algorithm mode.
     [-] Fixed: Crash program on the password entry window.
-    [-] Fixed: Algorithm mode did not affect when restored to the default settings.
+    [-] Fixed: Algorithm mode was not affected when the default settings were restored.
 
 [#] 2.22.0 Build 78 (2023-02-24)
 
