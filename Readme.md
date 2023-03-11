@@ -68,12 +68,29 @@
 
 ## Version History ##
 
+[#] 2.34.07 Build 142 (2023-03-11)
+
+    [+] Added: Feature to view error logs.
+    [>] Log Settings:
+        [+] Added: Save error logs to the hard disk.
+        [+] Added: Auto-show error logs before the program exits.
+    [+] Improved: Stability of program.
+    [+] Updated: GUI. (main window)
+    [-] Fixed: A Bug with the system tray and Auto start option on.
+    [-] Fixed: Error occurs when the user cancels the operation with the compressed
+        option on.
+    [-] Fixed: Error occurs when there is insufficient hard disk space to perform
+        encryption or decryption.
+    [-] Fixed: Error arises when trying to encrypt\decrypt a file without having
+        access to the folder.
+    [-] Fixed: Small bugs fixed.
+
 [#] 2.30.05 Build 133 (2023-03-07)
 
     [+] Added: Feature to remember the password for the next use.
     [+] Added: Feature to generate random password.
     [+] Added: What's new in the update package? (before upgrading to a new version)
-    [+] Added: Save\Load password. Now you can save\load your password. (backup)
+    [+] Added: Now you can save\load your password. (backup)
     [+] Improved: Code improvement and optimization.
     [+] Updated: GUI. (password window)
     [+] Updated: Downloading and upgrading the program.
