@@ -68,12 +68,21 @@
 
 ## Version History ##
 
+[#] 2.36.04 Build 150 (2023-03-15)
+
+    [+] Added: Added logs button to the work-in-progress window.
+    [+] Added: Right-click menu to the main window list.
+    [+] Improved: Main toolbar.
+    [+] Updated: GUI. (work-in-progress window)
+    [+] Updated: Save logs to hard disk.
+    [-] Fixed: Small bugs fixed.
+
 [#] 2.34.07 Build 142 (2023-03-11)
 
-    [+] Added: Feature to view error logs.
+    [+] Added: Feature to view logs.
     [>] Log Settings:
-        [+] Added: Save error logs to the hard disk.
-        [+] Added: Auto-show error logs before the program exits.
+        [+] Added: Save logs to the hard disk.
+        [+] Added: Auto-show logs before the program exits.
     [+] Improved: Stability of program.
     [+] Updated: GUI. (main window)
     [-] Fixed: A Bug with the system tray and Auto start option on.
