@@ -20,11 +20,12 @@
 ## Features ##
 
   * Drag and drop support.
+  * Encrypt files more than 4 GB.
   * Explorer shell context menu.
   * Unicode support.
   * AES\Towfish\Serpent 128-bit, 256-bit encryption\decryption algorithm with EAX and HMAC mode.
   * Secure delete source file.
-  * Zlib compression support.
+  * Zlib compression support (4GB limited).
   * Portable and light.
 
 ## Requirements ##
@@ -33,31 +34,12 @@
   
 ## Screen Shots ##
 
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Select%20Operation.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main%20Encryption.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main%20Decryption.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Loading%20Files.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Enter%20Password.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Load%20USB%20Files.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Explorer%20Context%20Menu.png?raw=true)
+![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Main.png?raw=true)
 
 * Settings:
 
 ![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/General%20Settings.png?raw=true)
 
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Context%20Menu%20Settings.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/File%20Shred%20Settings.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Algorithm%20Settings.png?raw=true)
-
-![Screenshot](https://github.com/LifeIsHex/FastCryptor/blob/main/screen%20shots/Misc%20Settings.png?raw=true)
 
 ## Credits ##
 	AES library used in this project belongs to Wolfgang Ehrhardt.
@@ -67,6 +49,24 @@
 [Download latest version](https://github.com/LifeIsHex/FastCryptor/releases/tag/release)
 
 ## Version History ##
+
+[#] 2.43.17 Build 190 (2023-03-26)
+
+    [+] Added: Support encryption/decryption files with more than 4 GB size.
+    [+] Added: Added compress/shred/logs files shortcut to the main window.
+    [+] Improved: Code improvement.
+    [+] Improved: Temp file clean up.
+    [+] Improved: Zlib compresses with the multi-instance of the program.
+    [+] Updated: The maximum file size for Zlib compression has been restricted to 4 GB.
+    [+] Updated: GUI. (main, settings window)
+    [+] Updated: We have now added additional validation for disk space.
+    [-] Fixed: There is a bug when encrypting files that are larger than 1.9 GB.
+    [-] Fixed: There is a bug when shredding files that are larger than 1.9 GB.
+    [-] Fixed: There is a bug when compressing files that are larger than 1.9 GB.
+    [-] Fixed: File size calculation.
+    [-] Fixed: Issue when Closing the work-in-progress window while the
+        encryption/decryption process is in progress.
+    [-] Fixed: Small bugs fixed.
 
 [#] 2.36.04 Build 150 (2023-03-15)
 
@@ -85,12 +85,12 @@
         [+] Added: Auto-show logs before the program exits.
     [+] Improved: Stability of program.
     [+] Updated: GUI. (main window)
-    [-] Fixed: A Bug with the system tray and Auto start option on.
+    [-] Fixed: A Bug with the system tray and Auto start option enable.
     [-] Fixed: Error occurs when the user cancels the operation with the compressed
-        option on.
+        option enable.
     [-] Fixed: Error occurs when there is insufficient hard disk space to perform
         encryption or decryption.
-    [-] Fixed: Error arises when trying to encrypt\decrypt a file without having
+    [-] Fixed: Error arises when trying to encrypt/decrypt a file without having
         access to the folder.
     [-] Fixed: Small bugs fixed.
 
@@ -99,7 +99,7 @@
     [+] Added: Feature to remember the password for the next use.
     [+] Added: Feature to generate random password.
     [+] Added: What's new in the update package? (before upgrading to a new version)
-    [+] Added: Now you can save\load your password. (backup)
+    [+] Added: Now you can save/load your password. (backup)
     [+] Improved: Code improvement and optimization.
     [+] Updated: GUI. (password window)
     [+] Updated: Downloading and upgrading the program.
@@ -108,16 +108,16 @@
 [#] 2.24.10 Build 103 (2023-03-01)
 
     [>] Compress Settings:
-        [+] Added: Compress while encrypting files. (zLib - make operation slower)
+        [+] Added: Compress before encrypting files. (zLib - it makes operation slower)
     [>] Algorithm Settings:
         [+] Added: Encryption algorithm with Serpent 128-bit and 256-bit.
     [+] Improved: Code improvement and optimization.
     [+] Improved: Restore settings to default.
     [+] Improved: Gutmann file shredder on cancel operation.
     [+] Improved: Now you can crypt files even if it's executed. (.exe, .dll, etc.)
-    [+] Updated: GUI. (main\load files\progress window)
-    [+] Updated: Encryption\Decryption progress can be seen in the window title bar.
-    [+] Updated: Compress\Decompress progress can be seen in the window title bar.
+    [+] Updated: GUI. (main/load files/progress window)
+    [+] Updated: Encryption/Decryption progress can be seen in the window title bar.
+    [+] Updated: Compress/Decompress progress can be seen in the window title bar.
     [+] Updated: File Shredder progress can be seen in the window title bar.
     [-] Fixed: Selecting algorithm mode.
     [-] Fixed: Crash program on the password entry window.
@@ -126,17 +126,17 @@
 [#] 2.22.0 Build 78 (2023-02-24)
 
     [>] General Settings:
-        [+] Added: Auto start encryption\decryption.
-        [+] Added: Close the program after encryption\decryption.
+        [+] Added: Auto start encryption/decryption.
+        [+] Added: Close the program after encryption/decryption.
     [>] Update Settings:
         [+] Added: Auto install updates after download.
     [+] Added: Feature to update program manually.
-    [+] Added: Feature to delete the empty directory after encryption\decryption.
+    [+] Added: Feature to delete the empty directory after encryption/decryption.
     [+] Added: Report bug link to the about window.
     [+] Improved: Update the program from the internet now has more validation checks.
-    [+] Improved: Auto-rename the encrypted\decrypted file name if it exists.
+    [+] Improved: Auto-rename the encrypted/decrypted file name if it exists.
     [+] Updated: Now you can delete the source file without shredding it.
-    [-] Fixed: Failed encryption\decryption when destination directory doesn't exist.
+    [-] Fixed: Failed encryption/decryption when destination directory doesn't exist.
 
 [#] 2.18.2 Build 73 (2023-02-23)
 
@@ -147,9 +147,9 @@
         [+] Show select operation window on startup.
     [+] Added: Folder settings section.
     [>] Items Moved to Folder settings section:
-        [+] Moved: Move the encrypted\decrypted files to a folder.
+        [+] Moved: Move the encrypted/decrypted files to a folder.
     [>] Item Moved to Misc. settings section:
-        [+] Moved: Auto-rename the encrypted\decrypted file name if it exists.
+        [+] Moved: Auto-rename the encrypted/decrypted file name if it exists.
     [+] Improved: Core code improvement and optimization.
     [+] Updated: GUI.
 
@@ -163,9 +163,9 @@
         [>] General Settings:
             [+] Added: Keep the window always on top.
             [+] Added: Auto close loading files window after the finished.
-            [+] Added: Auto close encryption\decryption files window after the finished.
-            [+] Added: Auto-rename the encrypted\decrypted file name if it exists.
-            [+] Added: Move the encrypted\decrypted files to a folder.
+            [+] Added: Auto close encryption/decryption files window after the finished.
+            [+] Added: Auto-rename the encrypted/decrypted file name if it exists.
+            [+] Added: Move the encrypted/decrypted files to a folder.
         [>] Context Menu Settings:
             [+] Added: Show the context menu button in the Select Operation window.
             [+] Updated: Now moved to the settings window, Context Menu section.
@@ -200,8 +200,8 @@
 [#] 2.2.5 Build 18 (2023-02-08)
 
     [+] Added: Now full Unicode support.
-    [+] Added: Show\Hide password button to the password window.
-    [+] Added: Feature to abort the whole encryption\decryption operation.
+    [+] Added: Show/Hide password button to the password window.
+    [+] Added: Feature to abort the whole encryption/decryption operation.
     [+] Improved: Core code improvement.
     [+] Optimized: File cryptor control. (handle errors)
     [+] Updated: GUI.
